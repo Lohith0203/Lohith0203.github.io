@@ -1,0 +1,235 @@
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+#logo{
+    position: fixed;
+    
+    bottom: 480px;
+    left: 0px;
+    height: 4cm;
+    width: 4cm;
+    padding-left: 0 px;
+}
+
+.home-box img{
+    height:140px;
+    border-radius: 200px;
+    box-shadow: 3px 6px 9px rgb(108, 233, 25);;
+}
+
+.name{
+   
+    font-size: 30px;
+    padding-left: 120px;
+    padding-top: 0px;
+}
+
+#surname{
+    color: rgb(88, 168, 8);
+}
+
+.title{
+    position:relative;
+    text-align: center;
+    padding-top: 20px;
+}
+
+a{
+    color:darkgreen;
+    
+}
+
+.header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 10px px;
+    background-color: #c1f3c1; /* Light background color */
+    display: flex;
+    justify-content: space-between; /* Space between logo and navigation */
+    align-items: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    z-index: 1001;
+}
+  .navigation {
+    display: flex;
+    align-items: center;
+  }
+  .navigation a {
+    
+    margin-left: 20px; /* Space between links */
+    text-decoration: none;
+    font-size: 16px;
+    color: #333; /* Text color */
+  }
+
+  .navigation a:hover{
+    color: rgb(10, 167, 10);
+  }
+
+  .home-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0d7; /* Background color for the page */
+    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+  }
+
+  .home-box {
+    background-color: #d1f7d4;
+    padding: 40px;
+    max-width: 600px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(10, 255, 1, 0.829);
+    text-align: center;
+  }
+
+  .home-box h1 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    color: #333;
+  }
+
+  .home-box p {
+    font-size: 16px;
+    color: #555;
+    line-height: 1.6;
+
+
+  }
+
+  .about-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0d7; /* Background color for the page */
+    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+  }
+
+
+  .about-box {
+    background-color: #d1f7d4;
+    padding: 40px;
+    max-width: 890px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(10, 255, 1, 0.829);
+    text-align: justify;
+  }
+  
+
+  .about-box p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+  }
+
+ 
+
+  .about-box h1 {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333;
+  }
+
+  .project-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0d7; /* Background color for the page */
+    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+  }
+
+.project-box {
+    background-color: #d1f7d4;
+    padding: 40px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(10, 255, 1, 0.829);
+    text-align: left;
+  }
+
+  .project-box h1 {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333;
+  }
+
+  .project-box h3 {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333;}
+  .project-box p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+  }
+
+
+  .contact-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    padding: 20px;
+    background-color: #f0f0f0d7; /* Background color for the page */
+    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+  }
+
+.contact-box {
+    background-color: #d1f7d4;
+    padding: 40px;
+    max-width: 900px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(10, 255, 1, 0.829);
+    text-align: center;
+  }
+
+  .contact-box h1 {
+    margin-bottom: 20px;
+    text-align: center;
+    color: #333;
+  }
+
+  .contact-box h3 {
+    margin-bottom: 20px;
+    text-align: left;
+    color: #333;}
+  .contact-box p {
+    font-size: 16px;
+    color: #000000;
+    line-height: 1.6;
+  }
+
+  .social-media-container {
+    justify-content: center;
+    left: 0px;
+    top
+    transform: translateY(-50%);
+    display: flex;
+    align-items: left;
+    margin-top: 100px;
+    gap: 120px;
+    z-index: 1001;
+  }
+
+  .social-media-icon {
+    
+    width: 1cm; /* Set the width to 1cm */
+    height: 1cm; /* Set the height to 1cm */
+    opacity: 0.8;
+    transition: opacity 0.3s;
+  }
+  
+  .social-media-icon:hover {
+    opacity: 1;
+  }
+
+
+  
