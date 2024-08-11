@@ -45,11 +45,11 @@ a{
     left: 0;
     width: 100%;
     padding: 10px px;
-    background-color: #c1f3c1; /* Light background color */
+    background-color: #c1f3c1; 
     display: flex;
-    justify-content: space-between; /* Space between logo and navigation */
+    justify-content: space-between; 
     align-items: center;
-    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Optional shadow */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); 
     z-index: 1001;
 }
   .navigation {
@@ -58,10 +58,10 @@ a{
   }
   .navigation a {
     
-    margin-left: 20px; /* Space between links */
+    margin-left: 20px; 
     text-decoration: none;
     font-size: 16px;
-    color: #333; /* Text color */
+    color: #333; 
   }
 
   .navigation a:hover{
@@ -74,8 +74,8 @@ a{
     align-items: center;
     height: 100vh;
     padding: 20px;
-    background-color: #f0f0f0d7; /* Background color for the page */
-    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+    background-color: #f0f0f0d7; 
+    margin-top: 70px; 
   }
 
   .home-box {
@@ -107,8 +107,8 @@ a{
     align-items: center;
     height: 100vh;
     padding: 20px;
-    background-color: #f0f0f0d7; /* Background color for the page */
-    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+    background-color: #f0f0f0d7; 
+    margin-top: 70px; 
   }
 
 
@@ -142,8 +142,8 @@ a{
     align-items: center;
     height: 100vh;
     padding: 20px;
-    background-color: #f0f0f0d7; /* Background color for the page */
-    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+    background-color: #f0f0f0d7; 
+    margin-top: 70px; 
   }
 
 .project-box {
@@ -176,8 +176,8 @@ a{
     align-items: center;
     height: 100vh;
     padding: 20px;
-    background-color: #f0f0f0d7; /* Background color for the page */
-    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+    background-color: #f0f0f0d7; 
+    margin-top: 70px; 
   }
   .skills-box {
     background-color: #d1f7d4;
@@ -207,8 +207,8 @@ a{
     align-items: center;
     height: 100vh;
     padding: 20px;
-    background-color: #f0f0f0d7; /* Background color for the page */
-    margin-top: 70px; /* Margin to avoid overlap with the fixed header */
+    background-color: #f0f0f0d7; 
+    margin-top: 70px; 
   }
 
 .contact-box {
@@ -250,8 +250,8 @@ a{
 
   .social-media-icon {
     
-    width: 1cm; /* Set the width to 1cm */
-    height: 1cm; /* Set the height to 1cm */
+    width: 1cm; 
+    height: 1cm; 
     opacity: 0.8;
     transition: opacity 0.3s;
   }
