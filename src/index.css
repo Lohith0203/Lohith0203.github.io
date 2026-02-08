@@ -1,0 +1,21 @@
+body {
+  margin: 0;
+  font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+}
+
+section {
+  max-width: 900px;
+  margin: 24px auto;
+  padding: 24px;
+  background: var(--card);
+  border-radius: 14px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+h1, h2 {
+  margin-bottom: 12px;
+}
+
+ul {
+  padding-left: 18px;
+}
